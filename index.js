@@ -1,18 +1,4 @@
-/**
- * Caracteres especiales en una expresión regular que podrían ser usados como
- * separador y darían problemas.
- *
- * @type {Object}
- */
-const escape = {
-    '(' : '\\(',
-    '[' : '\\[',
-    '{' : '\\{',
-    '?' : '\\?',
-    '.' : '\\.',
-    '*' : '\\*',
-    '+' : '\\+'
-};
+const regexcape = require('regexcape');
 
 /**
  * Función para convertir a formato camelCase cualquier texto separado por
@@ -27,7 +13,7 @@ function sep2cc(text, separator = '-')
 {
     return String(text)
         .replace(
-            new RegExp(`${escape[separator] || separator}[${sep2cc.chars}]`, 'gu'),
+            new RegExp(`${regexcape(separator)}[${sep2cc.chars}]`, 'gu'),
             match => match.substr(1).toUpperCase()
         );
 }
