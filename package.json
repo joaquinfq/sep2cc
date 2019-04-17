@@ -1,6 +1,6 @@
 {
     "name": "@jf/sep2cc",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "Transform a char separated string into a camelCase one using a custom separator and accepting unicode chars.",
     "author": "Joaquín Fernández",
     "license": "MIT",

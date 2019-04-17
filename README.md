@@ -1,14 +1,12 @@
-# sep2cc [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
+# @jf/sep2cc [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
-[![npm install sep2cc](https://nodei.co/npm/sep2cc.png?compact=true)](https://npmjs.org/package/sep2cc/)
+[![npm install @jf/sep2cc](https://nodei.co/npm/@jf/sep2cc.png?compact=true)](https://npmjs.org/package/@jf/sep2cc/)
 
 Transform a char separated string into a camelCase one using a custom separator and accepting unicode chars.
 
 You can modify `chars` property for customizing the text transformations in your application.
 
 ## Examples
-
-### toCamelCase
 
 ```
 'onceuponatime'                 -> 'onceuponatime'
