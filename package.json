@@ -1,6 +1,6 @@
 {
-    "name": "sep2cc",
-    "version": "1.0.1",
+    "name": "@jf/sep2cc",
+    "version": "2.0.0",
     "description": "Transform a char separated string into a camelCase one using a custom separator and accepting unicode chars.",
     "author": "Joaquín Fernández",
     "license": "MIT",
@@ -18,6 +18,6 @@
         "snake_case"
     ],
     "dependencies": {
-        "regexcape": "^1.0.0"
+        "@jf/regexcape": "^2.0.0"
     }
 }
